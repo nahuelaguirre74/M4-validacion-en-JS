@@ -16,30 +16,31 @@
         <form>
             <div class="form-control">
                 <label for="">Nombre</label>
-                <input type="text" name="nombre" id="name">
+                <input type="text" name="nombre" id="nombre">
+                <div class="error"></div>
                
 
             </div>
 
             <div class="form-control">
                 <label for="">Correo</label>
-                <input type="email" name="email" id="email">
-               
+                <input type="text" name="email" id="email">
+                <div class="error"></div>
             </div>
 
             <div class="form-control">
                 <label for="">Clave</label>
                 <input type="password" name="password" id="password" required>
-                
+                <div class="error"></div>
             </div>
 
             <div class="form-control">
-                <label for="">Confirmar Clavee</label>
-                <input type="password" name="confirmPassword" id="confirmPassword" required>
-                
+                <label for="">Confirmar Clave</label>
+                <input type="password2" name="password2" id="password2" required>
+                <div class="error"></div>
             </div>
             <button type="submit">Registrar</button>
-            <p class="warnings" id="warnings"></p>
+            
         </form>
     </div>
 

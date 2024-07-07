@@ -28,7 +28,7 @@ h2{
 }
 
 .form-control input{
-    width: 100%;
+    width: 95.5%;
     padding: 8px;
     border: 1px solid #ccc;
     border-radius: 5px;
@@ -36,14 +36,28 @@ h2{
 
 }
 
-.error{
-    color: red;
+
+
+.form-control.succes input{
+    color: #09c372;
     margin-top: 5px;
     
 }
 
+.form-control.error input{
+    color: red;
+    margin-top: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 9px;
+    height: 13px;
+    
+}
+
 button{
-    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
     padding: 10px;
     border: none;
     border-radius: 5px;
