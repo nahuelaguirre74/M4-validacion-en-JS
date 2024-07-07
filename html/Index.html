@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/CSS/styles.css">
+</head>
+
+<body>
+
+
+    <div class="registro-container">
+        <h2>Registro de Pacientes</h2>
+        <form>
+            <div class="form-control">
+                <label for="">Nombre</label>
+                <input type="text" name="nombre" id="name">
+               
+
+            </div>
+
+            <div class="form-control">
+                <label for="">Correo</label>
+                <input type="email" name="email" id="email">
+               
+            </div>
+
+            <div class="form-control">
+                <label for="">Clave</label>
+                <input type="password" name="password" id="password" required>
+                
+            </div>
+
+            <div class="form-control">
+                <label for="">Confirmar Clavee</label>
+                <input type="password" name="confirmPassword" id="confirmPassword" required>
+                
+            </div>
+            <button type="submit">Registrar</button>
+            <p class="warnings" id="warnings"></p>
+        </form>
+    </div>
+
+    <script src="/JS/script.js"></script>
+</body>
+
+</html>
